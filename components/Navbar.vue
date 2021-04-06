@@ -1,7 +1,7 @@
 <template>
     <b-navbar :centered="centered" :shadow="shadow">
         <template #brand>
-            <b-navbar-item tag="router-link" :to="{ path: '/' }">
+            <b-navbar-item class="brand" tag="router-link" :to="{ path: '/' }">
                 Outdoor Vibrations
             </b-navbar-item>
         </template>
@@ -44,5 +44,14 @@ export default {
 <style>
 nav {
     padding: 0 3.5rem;
+}
+
+.brand {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+a {
+    font-size: 18px;
 }
 </style>
