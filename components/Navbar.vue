@@ -1,5 +1,5 @@
 <template>
-    <b-navbar centered=true shadow=true>
+    <b-navbar :centered="centered" :shadow="shadow">
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
                 Outdoor Vibrations
@@ -31,7 +31,13 @@
 
 <script>
 export default {
-    name: 'Navbar'
+    name: 'Navbar',
+    data() {
+        return {
+            centered: true,
+            shadow: true
+        }
+    }
 }
 </script>
 
