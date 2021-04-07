@@ -59,7 +59,6 @@ export default {
 }
 
 img {
-  /* grid-area: right; */
   margin-top: 3.5rem;
 }
 
@@ -74,7 +73,6 @@ img {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: none;
-  /* margin-bottom: 2rem; */
 }
 
 .container h2 {
@@ -85,14 +83,9 @@ img {
 }
 
 .container .button {
-  margin-left: 3rem;
+  margin-left: 3.5rem;
   margin-top: 1rem;
   background: linear-gradient(180deg, #58B727, #40916C);
-  /* background-color: #40916C; */
   color: #fff;
-  /* padding-top: 100px; */
-  /* height: 90px;
-  width: 300px;
-  background-color: aquamarine; */
 }
 </style>
