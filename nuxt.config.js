@@ -12,7 +12,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      // { rel: 'styleshett', href: 'https://fonts.googleapis.com/css?family=Montserrat' }
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap' }
     ]
   },
 

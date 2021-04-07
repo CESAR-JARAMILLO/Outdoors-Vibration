@@ -20,7 +20,7 @@
         <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-primary">
+                    <a class="button">
                         <strong>Subscribe</strong>
                     </a>
                 </div>
@@ -53,5 +53,11 @@ nav {
 
 a {
     font-size: 18px;
+    font-weight: 600;
+}
+
+.button {
+    background-color: #58B727;
+    color: #fff;
 }
 </style>

@@ -30,7 +30,7 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Montserrat'; */
+  font-family: 'Montserrat', sans-serif;
 }
 .vector {
   position: absolute;
@@ -65,12 +65,12 @@ img {
 
 .container h1 {
   font-size: 64px;
-  width: 500px;
+  width: 31rem;
   margin-left: 3.5rem;
   margin-top: 4rem;
   color: #40916C;
   font-weight: 700;
-  background: -webkit-linear-gradient(#58B727, #40916C);
+  background: -webkit-linear-gradient(#40916C, #58B727);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: none;
@@ -79,7 +79,7 @@ img {
 
 .container h2 {
   font-size: 36px;
-  width: 500px;
+  width: 31rem;
   margin-left: 3.5rem;
   padding-top: 2.5rem;
 }
@@ -87,7 +87,7 @@ img {
 .container .button {
   margin-left: 3rem;
   margin-top: 1rem;
-  background: linear-gradient(45deg, #58B727, #40916C);
+  background: linear-gradient(180deg, #58B727, #40916C);
   /* background-color: #40916C; */
   color: #fff;
   /* padding-top: 100px; */
