@@ -4,7 +4,7 @@
           <div class="top-left">
                 <h2>Outdoor Vibration</h2>
                 <NuxtLink to="/">Home</NuxtLink>
-                <NuxtLink to="/">About</NuxtLink>
+                <NuxtLink to="/about">About</NuxtLink>
                 <NuxtLink to="/">Blog</NuxtLink>
           </div>
           <div class="top-right">
@@ -133,8 +133,8 @@ export default {
 }
 
 .bottom-row img {
-    height: 44px;
-    width: 44px;
+    height: 40px;
+    width: 40px;
     /* padding: 0 4px; */
 }
 </style>

@@ -97,6 +97,6 @@ img {
 }
 
 .footer-container {
-  margin-top: 15.5rem;
+  margin-top: 7rem;
 }
 </style>
