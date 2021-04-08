@@ -17,7 +17,19 @@
           </div>
       </div>
       <div class="bottom-row">
-
+          <p>Follow Us</p>
+          <a href="/">
+            <img src="../assets/instagram.png" alt="">
+          </a>
+          <a href="/">
+            <img src="../assets/facebook.png" alt="">
+          </a>
+          <a href="/">
+            <img src="../assets/youtube.png" alt="">
+          </a>
+          <a href="/">
+            <img src="../assets/twitter.png" alt="">
+          </a>
       </div>
   </div>
 </template>
@@ -107,5 +119,22 @@ export default {
     /* grid-area: bottom; */
     background-color: #1B4332;
     height: 150px;
+    color: #fff;
+    font-size: 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+}
+
+.bottom-row p {
+    padding-top: 1rem;
+    margin-bottom: -2rem;
+}
+
+.bottom-row img {
+    height: 44px;
+    width: 44px;
+    /* padding: 0 4px; */
 }
 </style>
