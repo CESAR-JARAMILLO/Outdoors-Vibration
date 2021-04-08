@@ -1,5 +1,6 @@
 <template>
 <div>
+  <div>
   <Navbar/>
   <div class="container">
     <div class="left">
@@ -14,13 +15,19 @@
   </div>
   <img class="vector" src="../assets/vector.png" alt="">
 </div>
+<TheFooter/>
+</div>
+
 </template>
 
 <script>
 import Navbar from '../components/Navbar'
+import TheFooter from '../components/TheFooter'
+
 export default {
   components: {
-    Navbar
+    Navbar,
+    TheFooter
   }
 }
 </script>
@@ -87,5 +94,9 @@ img {
   margin-top: 1rem;
   background: linear-gradient(180deg, #58B727, #40916C);
   color: #fff;
+}
+
+.footer-container {
+  margin-top: 15.5rem;
 }
 </style>

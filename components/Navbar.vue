@@ -18,6 +18,7 @@
         </template>
 
         <template #end>
+            
             <b-navbar-item tag="div">
                 <div class="buttons">
                     <a class="button">
@@ -26,6 +27,7 @@
                 </div>
             </b-navbar-item>
         </template>
+        <!-- <template #burger></template> -->
     </b-navbar>
 </template>
 
