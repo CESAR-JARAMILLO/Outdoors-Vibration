@@ -2,7 +2,7 @@
 <div>
   <div>
   <Navbar/>
-  <div class="container">
+  <div class="containers">
     <div class="left">
       <h1 class="title">Connecting to Nature</h1>
       <h2 class="subtitle">Have a love for all things that are outdoors?</h2>
@@ -48,7 +48,7 @@ export default {
   height: 50vh;
 }
 
-.container {
+.containers {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "left right";
@@ -69,7 +69,7 @@ img {
   margin-top: 3.5rem;
 }
 
-.container h1 {
+.containers h1 {
   font-size: 64px;
   width: 31rem;
   margin-left: 3.5rem;
@@ -82,14 +82,14 @@ img {
   background-clip: none;
 }
 
-.container h2 {
+.containers h2 {
   font-size: 36px;
   width: 31rem;
   margin-left: 3.5rem;
   padding-top: 2.5rem;
 }
 
-.container .button {
+.containers .button {
   margin-left: 3.5rem;
   margin-top: 1rem;
   background: linear-gradient(180deg, #58B727, #40916C);
