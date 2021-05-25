@@ -9,8 +9,10 @@
             <b-navbar-item href="#">
                 Home
             </b-navbar-item>
-            <b-navbar-item href="#">
+            <b-navbar-item>
+            <NuxtLink to="/about">
                 About
+            </NuxtLink>
             </b-navbar-item>
             <b-navbar-item href="#">
                 Blog
