@@ -40,7 +40,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 * {
     margin: 0;
     padding: 0;
@@ -53,6 +53,7 @@ export default {
     /* grid-template-areas: "top bottom"; */
     z-index: -1;
     height: 350px;
+    padding-top: 20px;
     /* width: 100vw; */
 }
 

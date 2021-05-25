@@ -98,5 +98,6 @@ main {
   z-index: -1;
   width: 100vw;
   height: 50vh;
+  /* margin-bottom: 20px; */
 }
 </style>
