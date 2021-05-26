@@ -39,7 +39,6 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
 }
 
 main {
@@ -63,7 +62,7 @@ main {
 }
 
 .right img {
-  height: 448px;
+  height: 480px;
   /* width: 35rem; */
 }
 
@@ -84,12 +83,40 @@ main {
   align-items: center;
 }
 
+.subscribe-card h2 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.subscribe-card p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .subscribe-card form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     height: 200px;
+    width: 300px;
 
+}
+
+form input {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+
+form button {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    background-color:   #58b727;
+    color: #fff;
 }
 
 .vector {
