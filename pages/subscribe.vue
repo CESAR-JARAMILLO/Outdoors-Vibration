@@ -3,8 +3,14 @@
     <Navbar/>
     <main>
         <div class="left">
-          <div class="about-card">
-            
+          <div class="subscribe-card">
+            <h2>Connect to our community</h2>
+            <p>Get email updates from Outdoor Vibrations and stay up-to-date on all of our new posts. We’ll also let you know when we have any special deals.</p>
+            <form action="">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+                <button>Subscribe</button>
+            </form>
           </div>
         </div>
         <div class="right">
@@ -61,7 +67,7 @@ main {
   /* width: 35rem; */
 }
 
-.about-card {
+.subscribe-card {
   /* font-family: 'Roboto', sans-serif; */
   /* margin-top: 3rem; */
   /* margin-left: 2.5rem; */
@@ -76,6 +82,14 @@ main {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+.subscribe-card form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+
 }
 
 .vector {
