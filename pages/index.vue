@@ -6,7 +6,7 @@
             <h1>Connecting to Nature</h1>
             <h2>Have a love for all things that are outdoors?</h2>
             <div class="btn-container">
-                <NuxtLink to="/"><button class="btn" href="">Join Now</button></NuxtLink>
+                <NuxtLink to="subscribe"><button class="btn" href="">Join Now</button></NuxtLink>
                 <NuxtLink to="/"><button class="btn" href="">Read Blog</button></NuxtLink>
             </div>
         </div>
