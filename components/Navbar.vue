@@ -17,7 +17,7 @@
                 </NuxtLink>
             </b-navbar-item>
             <b-navbar-item>
-                <NuxtLink to="/about">
+                <NuxtLink to="/blogs">
                     Blog
                 </NuxtLink>
             </b-navbar-item>
@@ -26,11 +26,13 @@
         <template #end>
             
             <b-navbar-item tag="div">
-                <div class="buttons">
-                    <a class="button">
-                        <strong>Subscribe</strong>
-                    </a>
-                </div>
+                <NuxtLink to="/subscribe">
+                    <div class="buttons">
+                        <a class="button">
+                            <strong>Subscribe</strong>
+                        </a>
+                    </div>
+                </NuxtLink>
             </b-navbar-item>
         </template>
         <!-- <template #burger></template> -->

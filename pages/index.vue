@@ -7,7 +7,7 @@
             <h2>Have a love for all things that are outdoors?</h2>
             <div class="btn-container">
                 <NuxtLink to="subscribe"><button class="btn" href="">Join Now</button></NuxtLink>
-                <NuxtLink to="/"><button class="btn" href="">Read Blog</button></NuxtLink>
+                <NuxtLink to="blogs"><button class="btn" href="">Read Blog</button></NuxtLink>
             </div>
         </div>
         <div class="right-col">
