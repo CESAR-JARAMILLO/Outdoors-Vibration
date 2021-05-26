@@ -4,10 +4,16 @@
     <main>
         <div class="left">
           <div class="about-card">
-            <p>Passion</p>
-            <h3>A journey of truth, with no destination.</h3>
+            <h3>Passion</h3>
+            <h2>A journey of truth, with no destination.</h2>
+            <img src="../assets/mountain.png" alt="">
             <p>Here at Outdoor Vibrations we believe that the road to growth should have no end. With many paths of improvement, inner growth and strength is achieved with every step.</p>
-            <p>Join us on this journey as we venture to topics of passion, health, outdoor tips, and other topics related to this great love. Whether your connection to nature is vibrant, or are looking to taking your first steps. Adventure is better with company.</p>
+            <p>Whether your connection to nature is vibrant, or are looking to taking your first steps. Adventure is better with company.</p>
+            <div class="buttons">
+              <a class="button">
+                <strong>Read Blog</strong>
+              </a>
+            </div>
           </div>
         </div>
         <div class="right">
@@ -44,7 +50,7 @@ main {
     height: 70vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .left {
   display: flex;
@@ -69,8 +75,8 @@ main {
   /* margin-top: 3rem; */
   /* margin-left: 2.5rem; */
   padding: 0 18px;
-  height: 500px;
-  width: 500px;
+  height: 550px;
+  width: 450px;
   border-radius: 10px;
   text-align: center;
   background-color: #40916C;
@@ -84,11 +90,29 @@ main {
 .about-card p {
   /* margin-top: 2rem; */
   font-size: 16px;
+  font-weight: 500;
 }
 
 .about-card h3 {
   /* margin-top: 1.5rem; */
   font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.about-card h2 {
+  /* margin-top: 1.5rem; */
+  font-size: 28px;
+  font-weight: 600;
+  width: 300px;
+}
+
+.about-card .button {
+  width: 160px;
+  height: 50px;
+  margin-bottom: 20px;
+  background-color: #1b4332;
+  border: none;
 }
 
 .vector {
