@@ -7,17 +7,17 @@
         </template>
         <template #start >
             <b-navbar-item>
-                <NuxtLink to="/">
+                <NuxtLink to="/" class="nav-item">
                     Home
                 </NuxtLink>
             </b-navbar-item>
             <b-navbar-item>
-                <NuxtLink to="/about">
+                <NuxtLink to="/about" class="nav-item">
                     About
                 </NuxtLink>
             </b-navbar-item>
             <b-navbar-item>
-                <NuxtLink to="/blogs">
+                <NuxtLink to="/blogs" class="nav-item">
                     Blog
                 </NuxtLink>
             </b-navbar-item>
@@ -56,9 +56,17 @@ nav {
     padding: 0 3.5rem;
 }
 
+.nav-item {
+    color: black;
+}
+
 .brand {
     font-size: 36px;
     font-weight: bold;
+}
+
+.brand:hover {
+    color: #58B727 !important;
 }
 
 a {
@@ -67,7 +75,7 @@ a {
 }
 
 .button {
-    background-color: #58B727;
+    background-color: #58b727;
     color: #fff;
 }
 </style>
