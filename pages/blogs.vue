@@ -86,11 +86,4 @@ export default {
     /* align-content: space-around; */
     
 }
-
-.blog-card {
-    width: 150px;
-    height: 200px;
-    background-color: blue;
-    justify-self: center;
-}
 </style>
