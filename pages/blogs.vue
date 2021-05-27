@@ -81,7 +81,7 @@ export default {
     margin-top: 60px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     /* justify-content: space-around; */
     /* align-content: space-around; */
     
