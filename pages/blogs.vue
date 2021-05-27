@@ -11,15 +11,25 @@
 
           </div>
       </div>
+      <div class="blog-cards">
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+          <BlogCard />
+      </div>
   </div>
 </template>
 
 <script>
 import Navbar from '../components/Navbar'
+import BlogCard from '../components/BlogCard'
 export default {
     name: 'blogs',
     components: {
-        Navbar
+        Navbar,
+        BlogCard
     }
 }
 </script>
@@ -64,5 +74,23 @@ export default {
     height: 350px;
     width: 600px;
     background-image: url('~@/assets/autumn.png');
+}
+
+.blog-cards {
+    margin: 0 10%;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    /* justify-content: space-around; */
+    /* align-content: space-around; */
+    
+}
+
+.blog-card {
+    width: 150px;
+    height: 200px;
+    background-color: blue;
+    justify-self: center;
 }
 </style>
